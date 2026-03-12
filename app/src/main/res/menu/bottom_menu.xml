@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_back" android:icon="@drawable/ic_back" android:title="পিছনে" />
+    <item android:id="@+id/nav_forward" android:icon="@drawable/ic_forward" android:title="সামনে" />
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_home" android:title="হোম" />
+    <item android:id="@+id/nav_refresh" android:icon="@drawable/ic_refresh" android:title="রিফ্রেশ" />
+    <item android:id="@+id/nav_share" android:icon="@drawable/ic_share" android:title="শেয়ার" />
+</menu>
