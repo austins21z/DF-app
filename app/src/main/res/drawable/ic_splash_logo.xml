@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer glow circle -->
+    <path
+        android:fillColor="#0a0e20"
+        android:pathData="M100,5 A95,95 0 1,1 100,195 A95,95 0 1,1 100,5z" />
+
+    <!-- Main circle -->
+    <path
+        android:fillColor="#0f1b3d"
+        android:pathData="M100,12 A88,88 0 1,1 100,188 A88,88 0 1,1 100,12z" />
+
+    <!-- Ring 1 -->
+    <path
+        android:pathData="M100,18 A82,82 0 1,1 100,182 A82,82 0 1,1 100,18z"
+        android:strokeColor="#e94560"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+
+    <!-- Ring 2 -->
+    <path
+        android:pathData="M100,24 A76,76 0 1,1 100,176 A76,76 0 1,1 100,24z"
+        android:strokeColor="#1a2850"
+        android:strokeWidth="1"
+        android:fillColor="#00000000" />
+
+    <!-- File shadow -->
+    <path
+        android:fillColor="#060c1e"
+        android:pathData="M58,38 L108,38 L128,60 L128,160 L58,160 Z" />
+
+    <!-- File body -->
+    <path
+        android:fillColor="#1a3565"
+        android:pathData="M55,35 L105,35 L125,57 L125,157 L55,157 Z" />
+
+    <!-- File fold -->
+    <path
+        android:fillColor="#224070"
+        android:pathData="M105,35 L105,57 L125,57 Z" />
+
+    <!-- Fold highlight -->
+    <path
+        android:fillColor="#2a4d80"
+        android:pathData="M105,35 L125,57 L115,46 Z" />
+
+    <!-- Inner area -->
+    <path
+        android:fillColor="#0e1e40"
+        android:pathData="M60,62 L120,62 L120,152 L60,152 Z" />
+
+    <!-- Letter D outer -->
+    <path
+        android:fillColor="#e94560"
+        android:pathData="M72,72 L95,72 C100,72 104,74 108,77.5 C112,81 114,85.5 114,91 C114,96.5 112,101 108,104.5 C104,108 100,110 95,110 L72,110 Z" />
+
+    <!-- Letter D cutout -->
+    <path
+        android:fillColor="#0e1e40"
+        android:pathData="M82,82 L95,82 C98,82 100,83 102,85 C104,87 105,89.5 105,91 C105,92.5 104,95 102,97 C100,99 98,100 95,100 L82,100 Z" />
+
+    <!-- D left highlight -->
+    <path
+        android:fillColor="#ff5a75"
+        android:pathData="M72,72 L76,72 L76,110 L72,110 Z" />
+
+    <!-- Lines -->
+    <path
+        android:pathData="M66,118 L116,118"
+        android:strokeColor="#1a3565"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M66,127 L100,127"
+        android:strokeColor="#1a3565"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M66,136 L88,136"
+        android:strokeColor="#162d55"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round" />
+
+    <!-- Accent dots -->
+    <path
+        android:fillColor="#e94560"
+        android:pathData="M118,40 A4,4 0 1,1 118,48 A4,4 0 1,1 118,40z" />
+
+    <path
+        android:fillColor="#e94560"
+        android:pathData="M40,148 A3,3 0 1,1 40,154 A3,3 0 1,1 40,148z" />
+
+    <!-- Small decorative dots -->
+    <path
+        android:fillColor="#1a3050"
+        android:pathData="M42,42 A2,2 0 1,1 42,46 A2,2 0 1,1 42,42z" />
+
+    <path
+        android:fillColor="#1a3050"
+        android:pathData="M47,48 A2,2 0 1,1 47,52 A2,2 0 1,1 47,48z" />
+
+</vector>
